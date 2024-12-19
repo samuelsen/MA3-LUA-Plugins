@@ -1,0 +1,11 @@
+-- Set active:
+Set Appearance 30 Property "Color" "255, 0, 0, 1" "BackR" "255" "BackG" "0" "BackB" "0" "BackAlpha" "255"
+
+-- Set inactive:
+Set Appearance 30 Property "Color" "0, 0, 0, 1" "BackR" "255" "BackG" "0" "BackB" "0" "BackAlpha" "255"
+
+
+-- Scroll window:
+--- arrayen er: Skjerm, pools, settings til pool
+---
+ "CurrentScreenConfig().ScreenContents[1][1][3].scrollv = '0,1'"
